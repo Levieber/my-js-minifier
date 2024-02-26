@@ -1,0 +1,22 @@
+{
+  "name": "my-js-minifier",
+  "module": "src/main.js",
+  "type": "module",
+  "engines": {
+    "node": "v20.11.1"
+  },
+  "packageManager": "bun@1.0.29",
+  "scripts": {
+    "clear": "rimraf public/index.min.js",
+    "minify": "bun run clear && node ./src/main.js public/index.js",
+    "dev": "bun run minify && node public/index.min.js"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "acorn": "^8.11.3",
+    "escodegen": "^2.1.0",
+    "source-map": "^0.7.4"
+  }
+}

@@ -1,0 +1,493 @@
+{
+	"type": "Program",
+	"start": 0,
+	"end": 295,
+	"loc": {
+		"start": { "line": 1, "column": 0 },
+		"end": { "line": 13, "column": 0 }
+	},
+	"body": [
+		{
+			"type": "FunctionDeclaration",
+			"start": 0,
+			"end": 51,
+			"loc": {
+				"start": { "line": 1, "column": 0 },
+				"end": { "line": 3, "column": 1 }
+			},
+			"id": {
+				"type": "Identifier",
+				"start": 9,
+				"end": 12,
+				"loc": {
+					"start": { "line": 1, "column": 9 },
+					"end": { "line": 1, "column": 12 }
+				},
+				"name": "sum"
+			},
+			"expression": false,
+			"generator": false,
+			"async": false,
+			"params": [
+				{
+					"type": "Identifier",
+					"start": 13,
+					"end": 17,
+					"loc": {
+						"start": { "line": 1, "column": 13 },
+						"end": { "line": 1, "column": 17 }
+					},
+					"name": "var1"
+				},
+				{
+					"type": "Identifier",
+					"start": 19,
+					"end": 23,
+					"loc": {
+						"start": { "line": 1, "column": 19 },
+						"end": { "line": 1, "column": 23 }
+					},
+					"name": "var2"
+				}
+			],
+			"body": {
+				"type": "BlockStatement",
+				"start": 25,
+				"end": 51,
+				"loc": {
+					"start": { "line": 1, "column": 25 },
+					"end": { "line": 3, "column": 1 }
+				},
+				"body": [
+					{
+						"type": "ReturnStatement",
+						"start": 29,
+						"end": 48,
+						"loc": {
+							"start": { "line": 2, "column": 1 },
+							"end": { "line": 2, "column": 20 }
+						},
+						"argument": {
+							"type": "BinaryExpression",
+							"start": 36,
+							"end": 47,
+							"loc": {
+								"start": { "line": 2, "column": 8 },
+								"end": { "line": 2, "column": 19 }
+							},
+							"left": {
+								"type": "Identifier",
+								"start": 36,
+								"end": 40,
+								"loc": {
+									"start": { "line": 2, "column": 8 },
+									"end": { "line": 2, "column": 12 }
+								},
+								"name": "var1"
+							},
+							"operator": "+",
+							"right": {
+								"type": "Identifier",
+								"start": 43,
+								"end": 47,
+								"loc": {
+									"start": { "line": 2, "column": 15 },
+									"end": { "line": 2, "column": 19 }
+								},
+								"name": "var2"
+							}
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "FunctionDeclaration",
+			"start": 55,
+			"end": 267,
+			"loc": {
+				"start": { "line": 5, "column": 0 },
+				"end": { "line": 10, "column": 1 }
+			},
+			"id": {
+				"type": "Identifier",
+				"start": 64,
+				"end": 72,
+				"loc": {
+					"start": { "line": 5, "column": 9 },
+					"end": { "line": 5, "column": 17 }
+				},
+				"name": "showInfo"
+			},
+			"expression": false,
+			"generator": false,
+			"async": false,
+			"params": [
+				{
+					"type": "Identifier",
+					"start": 73,
+					"end": 77,
+					"loc": {
+						"start": { "line": 5, "column": 18 },
+						"end": { "line": 5, "column": 22 }
+					},
+					"name": "name"
+				}
+			],
+			"body": {
+				"type": "BlockStatement",
+				"start": 79,
+				"end": 267,
+				"loc": {
+					"start": { "line": 5, "column": 24 },
+					"end": { "line": 10, "column": 1 }
+				},
+				"body": [
+					{
+						"type": "VariableDeclaration",
+						"start": 83,
+						"end": 106,
+						"loc": {
+							"start": { "line": 6, "column": 1 },
+							"end": { "line": 6, "column": 24 }
+						},
+						"declarations": [
+							{
+								"type": "VariableDeclarator",
+								"start": 89,
+								"end": 105,
+								"loc": {
+									"start": { "line": 6, "column": 7 },
+									"end": { "line": 6, "column": 23 }
+								},
+								"id": {
+									"type": "Identifier",
+									"start": 89,
+									"end": 92,
+									"loc": {
+										"start": { "line": 6, "column": 7 },
+										"end": { "line": 6, "column": 10 }
+									},
+									"name": "age"
+								},
+								"init": {
+									"type": "CallExpression",
+									"start": 95,
+									"end": 105,
+									"loc": {
+										"start": { "line": 6, "column": 13 },
+										"end": { "line": 6, "column": 23 }
+									},
+									"callee": {
+										"type": "Identifier",
+										"start": 95,
+										"end": 98,
+										"loc": {
+											"start": { "line": 6, "column": 13 },
+											"end": { "line": 6, "column": 16 }
+										},
+										"name": "sum"
+									},
+									"arguments": [
+										{
+											"type": "Literal",
+											"start": 99,
+											"end": 101,
+											"loc": {
+												"start": { "line": 6, "column": 17 },
+												"end": { "line": 6, "column": 19 }
+											},
+											"value": 10,
+											"raw": "10"
+										},
+										{
+											"type": "Literal",
+											"start": 103,
+											"end": 104,
+											"loc": {
+												"start": { "line": 6, "column": 21 },
+												"end": { "line": 6, "column": 22 }
+											},
+											"value": 7,
+											"raw": "7"
+										}
+									],
+									"optional": false
+								}
+							}
+						],
+						"kind": "const"
+					},
+					{
+						"type": "VariableDeclaration",
+						"start": 109,
+						"end": 149,
+						"loc": {
+							"start": { "line": 7, "column": 1 },
+							"end": { "line": 7, "column": 41 }
+						},
+						"declarations": [
+							{
+								"type": "VariableDeclarator",
+								"start": 115,
+								"end": 148,
+								"loc": {
+									"start": { "line": 7, "column": 7 },
+									"end": { "line": 7, "column": 40 }
+								},
+								"id": {
+									"type": "Identifier",
+									"start": 115,
+									"end": 125,
+									"loc": {
+										"start": { "line": 7, "column": 7 },
+										"end": { "line": 7, "column": 17 }
+									},
+									"name": "profession"
+								},
+								"init": {
+									"type": "Literal",
+									"start": 128,
+									"end": 148,
+									"loc": {
+										"start": { "line": 7, "column": 20 },
+										"end": { "line": 7, "column": 40 }
+									},
+									"value": "Software Developer",
+									"raw": "\"Software Developer\""
+								}
+							}
+						],
+						"kind": "const"
+					},
+					{
+						"type": "VariableDeclaration",
+						"start": 152,
+						"end": 240,
+						"loc": {
+							"start": { "line": 8, "column": 1 },
+							"end": { "line": 8, "column": 89 }
+						},
+						"declarations": [
+							{
+								"type": "VariableDeclarator",
+								"start": 158,
+								"end": 239,
+								"loc": {
+									"start": { "line": 8, "column": 7 },
+									"end": { "line": 8, "column": 88 }
+								},
+								"id": {
+									"type": "Identifier",
+									"start": 158,
+									"end": 165,
+									"loc": {
+										"start": { "line": 8, "column": 7 },
+										"end": { "line": 8, "column": 14 }
+									},
+									"name": "message"
+								},
+								"init": {
+									"type": "TemplateLiteral",
+									"start": 168,
+									"end": 239,
+									"loc": {
+										"start": { "line": 8, "column": 17 },
+										"end": { "line": 8, "column": 88 }
+									},
+									"expressions": [
+										{
+											"type": "Identifier",
+											"start": 178,
+											"end": 182,
+											"loc": {
+												"start": { "line": 8, "column": 27 },
+												"end": { "line": 8, "column": 31 }
+											},
+											"name": "name"
+										},
+										{
+											"type": "Identifier",
+											"start": 195,
+											"end": 198,
+											"loc": {
+												"start": { "line": 8, "column": 44 },
+												"end": { "line": 8, "column": 47 }
+											},
+											"name": "age"
+										},
+										{
+											"type": "Identifier",
+											"start": 226,
+											"end": 236,
+											"loc": {
+												"start": { "line": 8, "column": 75 },
+												"end": { "line": 8, "column": 85 }
+											},
+											"name": "profession"
+										}
+									],
+									"quasis": [
+										{
+											"type": "TemplateElement",
+											"start": 169,
+											"end": 176,
+											"loc": {
+												"start": { "line": 8, "column": 18 },
+												"end": { "line": 8, "column": 25 }
+											},
+											"value": { "raw": "Hello, ", "cooked": "Hello, " },
+											"tail": false
+										},
+										{
+											"type": "TemplateElement",
+											"start": 183,
+											"end": 193,
+											"loc": {
+												"start": { "line": 8, "column": 32 },
+												"end": { "line": 8, "column": 42 }
+											},
+											"value": { "raw": "! You are ", "cooked": "! You are " },
+											"tail": false
+										},
+										{
+											"type": "TemplateElement",
+											"start": 199,
+											"end": 224,
+											"loc": {
+												"start": { "line": 8, "column": 48 },
+												"end": { "line": 8, "column": 73 }
+											},
+											"value": {
+												"raw": " years old and you are a ",
+												"cooked": " years old and you are a "
+											},
+											"tail": false
+										},
+										{
+											"type": "TemplateElement",
+											"start": 237,
+											"end": 238,
+											"loc": {
+												"start": { "line": 8, "column": 86 },
+												"end": { "line": 8, "column": 87 }
+											},
+											"value": { "raw": ".", "cooked": "." },
+											"tail": true
+										}
+									]
+								}
+							}
+						],
+						"kind": "const"
+					},
+					{
+						"type": "ExpressionStatement",
+						"start": 243,
+						"end": 264,
+						"loc": {
+							"start": { "line": 9, "column": 1 },
+							"end": { "line": 9, "column": 22 }
+						},
+						"expression": {
+							"type": "CallExpression",
+							"start": 243,
+							"end": 263,
+							"loc": {
+								"start": { "line": 9, "column": 1 },
+								"end": { "line": 9, "column": 21 }
+							},
+							"callee": {
+								"type": "MemberExpression",
+								"start": 243,
+								"end": 254,
+								"loc": {
+									"start": { "line": 9, "column": 1 },
+									"end": { "line": 9, "column": 12 }
+								},
+								"object": {
+									"type": "Identifier",
+									"start": 243,
+									"end": 250,
+									"loc": {
+										"start": { "line": 9, "column": 1 },
+										"end": { "line": 9, "column": 8 }
+									},
+									"name": "console"
+								},
+								"property": {
+									"type": "Identifier",
+									"start": 251,
+									"end": 254,
+									"loc": {
+										"start": { "line": 9, "column": 9 },
+										"end": { "line": 9, "column": 12 }
+									},
+									"name": "log"
+								},
+								"computed": false,
+								"optional": false
+							},
+							"arguments": [
+								{
+									"type": "Identifier",
+									"start": 255,
+									"end": 262,
+									"loc": {
+										"start": { "line": 9, "column": 13 },
+										"end": { "line": 9, "column": 20 }
+									},
+									"name": "message"
+								}
+							],
+							"optional": false
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "ExpressionStatement",
+			"start": 271,
+			"end": 293,
+			"loc": {
+				"start": { "line": 12, "column": 0 },
+				"end": { "line": 12, "column": 22 }
+			},
+			"expression": {
+				"type": "CallExpression",
+				"start": 271,
+				"end": 292,
+				"loc": {
+					"start": { "line": 12, "column": 0 },
+					"end": { "line": 12, "column": 21 }
+				},
+				"callee": {
+					"type": "Identifier",
+					"start": 271,
+					"end": 279,
+					"loc": {
+						"start": { "line": 12, "column": 0 },
+						"end": { "line": 12, "column": 8 }
+					},
+					"name": "showInfo"
+				},
+				"arguments": [
+					{
+						"type": "Literal",
+						"start": 280,
+						"end": 291,
+						"loc": {
+							"start": { "line": 12, "column": 9 },
+							"end": { "line": 12, "column": 20 }
+						},
+						"value": "Levi Eber",
+						"raw": "\"Levi Eber\""
+					}
+				],
+				"optional": false
+			}
+		}
+	],
+	"sourceType": "script"
+}
